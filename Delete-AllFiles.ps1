@@ -1,0 +1,1 @@
+﻿Get-ChildItem -Path D:\DIET_DataFiles -Include *.* -File -Recurse | foreach{$_.Delete()}
